@@ -28,4 +28,9 @@ module.exports = {
             },
         },
     ],
+    "settings": {
+        "node": {
+            "tryExtensions": [".ts", ".js", ".json"]
+        }
+    },
 };
