@@ -6,15 +6,11 @@ module.exports = {
         'prettier/@typescript-eslint',
         'plugin:prettier/recommended',
         'plugin:jest/recommended',
+        "plugin:node/recommended"
     ],
     'plugins': ['@typescript-eslint', 'prettier', 'jest'],
     parserOptions: {
-        ecmaVersion: 2018,
-        sourceType: 'module',
-    },
-    'globals': {
-        'process': true,
-        'console': true
+        "ecmaVersion": 2020
     },
     'rules': {
         'no-unused-vars': 'off',
