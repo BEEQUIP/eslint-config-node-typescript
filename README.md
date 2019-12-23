@@ -22,25 +22,25 @@ npm install --save-dev @beequip/eslint-config-node-typescript
 
 ## How to use
 
-Create a new `.eslintrc.js` file in the root of your project with the following content:
+Create a new `.eslintrc.json` file in the root of your project with the following content:
 
-```javascript
-module.exports = {
-    'extends': [
-        '@beequip/eslint-config-node-typescript',
-    ],
+```json
+{
+  "extends": [
+    "@beequip/eslint-config-node-typescript"
+  ]
 }
+
 ```
 
-For an optimal experience, add a Prettier override by creating a `.prettierrc` file in the root of your project.
+For an optimal experience, add a Prettier override by creating a `.prettierrc.json` file in the root of your project.
 
-```javascript
+```json
 {
+    "trailingComma": "es5",
     "tabWidth": 4,
-    "printWidth": 80,
     "semi": false,
-    "singleQuote": true,
-    "trailingComma": "es5"
+    "singleQuote": true
 }
 ```
 
