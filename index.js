@@ -27,14 +27,6 @@ module.exports = {
                 '@typescript-eslint/no-var-requires': 'off',
             },
         },
-        {
-            files: ['*.ts'],
-            rules: {
-                // Disable reporting on ES syntax (e.g. import statements),
-                // since we’re always compiling to ES 5 with TypeScript
-                'node/no-unsupported-features/es-syntax': 'off',
-            }
-        }
     ],
     settings: {
         node: {
